@@ -3,4 +3,6 @@ streamlit
 pandas
 seaborn
 scikit-learn
-pickle
+numpy
+keras
+tensorflow
