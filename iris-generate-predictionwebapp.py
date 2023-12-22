@@ -27,7 +27,7 @@ st.write(df)
 
 loaded_model = pickle.load(open("irispredictionmodelv4.h5", "rb"))
 
-#prediction = loaded_model.predict_proba(df)
+prediction = loaded_model.predict_proba(df)
 
-#st.subheader('Prediction Probabilities')
-#st.write(prediction)
+st.subheader('Prediction Probabilities')
+st.write(prediction)
